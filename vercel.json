@@ -3,7 +3,13 @@
       {
         "src": "locallibrary/wsgi.py",
         "use": "@vercel/python",
-        "config": { "runtime": "python3.12.3" }
+      },
+      {
+        "src": "migrate_modelDB.sh",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "staticfiles"
+        }
       }
     ],
     "routes": [
