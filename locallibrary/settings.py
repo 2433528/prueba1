@@ -39,7 +39,7 @@ ALLOWED_HOSTS = ['.railway.app', '.pythonanywhere.com', '127.0.0.1','.vercel.app
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
 CSRF_TRUSTED_ORIGINS = ['https://*.railway.app',
-                        'https://*.pythonanywhere.com'
+                        'https://*.pythonanywhere.com',
                        ]
 
 
