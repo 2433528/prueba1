@@ -6,7 +6,7 @@
         "config": { "runtime": "python3.10.2" }
       },
       {
-        "src": "./migrate_modelDB.sh",
+        "src": ".migrate_modelDB.sh",
         "use": "@vercel/static-build",
         "config": {
           "distDir": "staticfiles"
