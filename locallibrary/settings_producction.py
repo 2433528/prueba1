@@ -1,5 +1,5 @@
 from decouple import config, Csv
-ALLOWED_HOSTS = ['.vercel.app','biblioteca-vercel-cristina.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app']
 DEBUG = False
 DATABASES = {
     'default': {
